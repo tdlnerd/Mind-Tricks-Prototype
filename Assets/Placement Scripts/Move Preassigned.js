@@ -5,7 +5,9 @@ Move();
 }
 
 function Move() {
-transform.position = Pos[Random.Range(0, Pos.Length)]; 
+	choice = Random.Range(0,Pos.Length);
+	transform.position = Pos[choice];
+	transform.rotation = Quaternion.Euler(Rot[choice]);
 
 }
 
@@ -14,6 +16,6 @@ function OnCollisionEnter (other : Collision) {
 		return;
 		}
 	choice = Random.Range(0,Pos.Length);
-	transform.position = Pos[choice];
 	transform.rotation = Quaternion.Euler(Rot[choice]);
+	transform.position = Pos[choice];
 }
