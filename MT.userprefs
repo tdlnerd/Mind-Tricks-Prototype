@@ -1,11 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/IgnoreL2.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Placement Scripts/Invisible.js">
     <Files>
-      <File FileName="Assets/Placement Scripts/Invisible.js" Line="21" Column="3" />
+      <File FileName="Assets/Placement Scripts/Invisible.js" Line="12" Column="21" />
       <File FileName="Assets/Placement Scripts/MovePreassigned.js" Line="1" Column="1" />
-      <File FileName="Assets/Placement Scripts/LightDeactivate.js" Line="19" Column="2" />
-      <File FileName="Assets/Placement Scripts/MovePreassignedSimple.js" Line="21" Column="2" />
+      <File FileName="Assets/Placement Scripts/LightDeactivate.js" Line="1" Column="1" />
+      <File FileName="Assets/Placement Scripts/MovePreassignedSimple.js" Line="1" Column="1" />
       <File FileName="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/IgnoreL2.js" Line="4" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
