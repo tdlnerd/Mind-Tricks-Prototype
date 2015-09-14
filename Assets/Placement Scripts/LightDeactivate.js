@@ -8,10 +8,10 @@ Int = GetComponent.<Light>().intensity;
 
 
 function Update () {
-	if (check.MatChange == true) {
+	if (check.MatChange == false) {
 		GetComponent.<Light>().intensity= 0;
 	}
-	if (check.MatChange == false) {
+	if (check.MatChange == true) {
 		if (doublecheck.isVisible == false) {
 			GetComponent.<Light>().intensity= Int;
 			}

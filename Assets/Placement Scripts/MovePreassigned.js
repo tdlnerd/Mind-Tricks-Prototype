@@ -27,8 +27,6 @@ function OnCollisionEnter(collision: Collision) {
 function Update () {
 	Debug.Log(GetComponent.<Renderer>().isVisible);
 	if (Moving == true) {
-		if (GetComponent.<Renderer>().isVisible == false) {
 			MatChange = false;
 	}
-}
 }

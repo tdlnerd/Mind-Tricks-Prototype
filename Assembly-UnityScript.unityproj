@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Interactive Scripts\Fan Control.js" />
+     <Compile Include="Assets\Interactive Scripts\Light Switch.js" />
      <Compile Include="Assets\Placement Scripts\Invisible.js" />
      <Compile Include="Assets\Placement Scripts\LightDeactivate.js" />
      <Compile Include="Assets\Placement Scripts\MovePreassigned.js" />
