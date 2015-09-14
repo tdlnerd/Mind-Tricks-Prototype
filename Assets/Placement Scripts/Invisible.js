@@ -9,6 +9,9 @@ function Start () {
 }
 
 function Update () {
+	if (check.moving == true) {
+		gameObject.layer = 2;
+	}
 	if (check.MatChange == true) {
 		gameObject.layer = 2;
 	}
