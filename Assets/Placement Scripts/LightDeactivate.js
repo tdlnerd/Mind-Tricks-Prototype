@@ -9,11 +9,11 @@ Int = GetComponent.<Light>().intensity;
 
 function Update () {
 	if (check.MatChange == true) {
-		GetComponent.<Light>().intensity= 0;
+		GetComponent.<Light>().enabled = false;
 	}
 	if (check.MatChange == false) {
 		if (doublecheck.isVisible == true) {
-			GetComponent.<Light>().intensity= Int;
+			GetComponent.<Light>().enabled = true;
 			}
 	}
 }
