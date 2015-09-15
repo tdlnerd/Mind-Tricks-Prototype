@@ -1,13 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Placement Scripts/Invisible.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Room 1.js">
     <Files>
-      <File FileName="Assets/Interactive Scripts/Fan Control.js" Line="8" Column="8" />
-      <File FileName="Assets/Interactive Scripts/Light Switch.js" Line="5" Column="28" />
-      <File FileName="Assets/Placement Scripts/Invisible.js" Line="15" Column="75" />
-      <File FileName="Assets/Placement Scripts/MovePreassigned.js" Line="32" Column="2" />
-      <File FileName="Assets/Placement Scripts/LightDeactivate.js" Line="16" Column="42" />
-      <File FileName="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/IgnoreL2.js" Line="1" Column="1" />
+      <File FileName="Assets/Room 1.js" Line="28" Column="43" />
+      <File FileName="Assets/Interactive Scripts/Fan Control.js" Line="1" Column="1" />
+      <File FileName="Assets/Interactive Scripts/Light Switch.js" Line="1" Column="1" />
+      <File FileName="Assets/Placement Scripts/Invisible.js" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
