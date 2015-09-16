@@ -54,10 +54,10 @@ LightmapSettings:
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
     m_EnableBakedLightmaps: 1
-    m_EnableRealtimeLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 3
-    m_Resolution: .5
+    m_Resolution: .25
     m_BakeResolution: 40
     m_TextureWidth: 1024
     m_TextureHeight: 1024
@@ -1904,7 +1904,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 690791677}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea6aa81d439574c789b69af19339489a, type: 3}
   m_Name: 
@@ -1919,15 +1919,17 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 690791677}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4aeac173382384356b0843fb673362cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Pos:
-  - {x: 0, y: 0, z: 0}
+  - {x: -4, y: .634000003, z: -.600000024}
+  - {x: -.150000006, y: .634000003, z: 3.8499999}
   Rot:
   - {x: 0, y: 90, z: 0}
+  - {x: 0, y: 180, z: 0}
   Moving: 0
   MatChange: 0
 --- !u!1 &722100570

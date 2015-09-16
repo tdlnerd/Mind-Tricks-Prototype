@@ -19,9 +19,7 @@ function OnCollisionEnter(collision: Collision) {
 	if (collision.gameObject.tag == "Player") {
 		return;
 		}
-	choice = Random.Range(0,Pos.Length);
-	transform.rotation = Quaternion.Euler(Rot[choice]);
-	transform.position = Pos[choice];
+	Move();
 }
 
 function Update () {
