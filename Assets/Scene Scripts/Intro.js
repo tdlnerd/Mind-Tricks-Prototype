@@ -6,7 +6,11 @@ var TV : Animator;
 var Intro : UnityEditor.Animations.AnimatorController;
 var Post : UnityEditor.Animations.AnimatorController;
 var Sprite : GameObject;
+var PreScreen : Texture;
+var PostScreen : Texture;
+var Stereo : GameObject;
 function Start () {
+Stereo.GetComponent.<Renderer>().material.mainTexture = PreScreen;
 Sprite.transform.localScale.x = 0.25;
 Sprite.transform.localScale.y = 0.25;
 TV.runtimeAnimatorController = Intro;
@@ -15,6 +19,7 @@ Mainlight2.intensity= 1.5;
 Mainlight3.intensity= 1.5;
 yield WaitForSeconds (4);
 	InvokeRepeating("Flicker", 0, 0.05);
+	Stereo.GetComponent.<Renderer>().material.mainTexture = PostScreen; 
 yield WaitForSeconds (2);
 	CancelInvoke("Flicker");
 Mainlight1.intensity= 0.05;
@@ -27,6 +32,7 @@ CancelInvoke("LightAni");
 Sprite.transform.localScale.x = 0.08707029;
 Sprite.transform.localScale.y = 0.08707029;
 TV.runtimeAnimatorController = Post;
+
 
 }
 function Flicker () {
