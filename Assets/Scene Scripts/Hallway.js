@@ -1,16 +1,17 @@
 ﻿var Mainlight1 : Light;
 var MainLight2 : Light;
-var lightStep = 1;
+var lightStep = 3;
 
 function OnTriggerEnter () {
+yield WaitForSeconds (1);
 	InvokeRepeating("Flicker", 0, 0.05);
 yield WaitForSeconds (1);
 	CancelInvoke("Flicker");
-Mainlight1.intensity= 0.05;
-MainLight2.intensity= 0.05;
+Mainlight1.intensity= 0.00;
+MainLight2.intensity= 0.00;
 yield WaitForSeconds (1);
 InvokeRepeating("LightAni", 0, 0.05);
-yield WaitForSeconds (0.5);
+yield WaitForSeconds (1.5);
 CancelInvoke("LightAni");
 Destroy(gameObject);
 }

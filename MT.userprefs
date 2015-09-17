@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Room 1.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scene Scripts/Hallway.js">
     <Files>
-      <File FileName="Assets/Room 1.js" Line="28" Column="43" />
+      <File FileName="Assets/Scene Scripts/Hallway.js" Line="11" Column="27" />
       <File FileName="Assets/Interactive Scripts/Fan Control.js" Line="1" Column="1" />
       <File FileName="Assets/Interactive Scripts/Light Switch.js" Line="1" Column="1" />
       <File FileName="Assets/Placement Scripts/Invisible.js" Line="1" Column="1" />
