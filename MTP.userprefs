@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scene Scripts/Hallway.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../Robotics/Arcade/Assets/RobotControls.js">
     <Files>
-      <File FileName="Assets/Scene Scripts/Hallway.js" Line="3" Column="18" />
-      <File FileName="Assets/Placement Scripts/MovePreassigned.js" Line="1" Column="1" />
-      <File FileName="Assets/Placement Scripts/InvisibleWithLighting.js" Line="1" Column="1" />
-      <File FileName="Assets/Placement Scripts/MovePreassignedWithLighting.js" Line="1" Column="1" />
-      <File FileName="Assets/Placement Scripts/Invisible.js" Line="1" Column="1" />
+      <File FileName="../../../Robotics/Arcade/Assets/RobotControls.js" Line="7" Column="52" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
