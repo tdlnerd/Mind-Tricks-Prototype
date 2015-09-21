@@ -41,6 +41,8 @@ namespace UnityStandardAssets.Utility
                 return;
             }
 
+
+
             if (!m_SpringJoint)
             {
                 var go = new GameObject("Rigidbody dragger");

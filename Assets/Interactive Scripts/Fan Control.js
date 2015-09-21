@@ -1,16 +1,13 @@
 ﻿var anim : Animator;
-var enable = true;
 
-function OnBecameInvisible () {
-	if (enable == true) {
-	ChangeSpeed();
-	}
-return;
+function OnMouseDown () {
+	InvokeRepeating("Turn", 0, 0.05);
+    anim.SetTrigger("Knob");
+    yield WaitForSeconds (2);
+    CancelInvoke("Turn");
+    GetComponent.<Collider>().enabled = false;
 }
-function ChangeSpeed () {
-	enable = false;
-   var fanspeed : float = Random.Range(0.1,5.0);
-    anim.SetFloat("Speed", fanspeed);
-    yield WaitForSeconds (Random.Range(5,20));
-    enable = true;
+
+function Turn () {
+transform.localRotation.y += 0.5;
 }

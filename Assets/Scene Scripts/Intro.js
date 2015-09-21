@@ -11,6 +11,8 @@ var PostScreen : Texture;
 var Stereo : GameObject;
 var FlickerSound : AudioClip;
 var Poweroff : AudioClip;
+var TVAudio : AudioSource;
+var TVAudioStatic : AudioClip;
 function Start () {
 Stereo.GetComponent.<Renderer>().material.mainTexture = PreScreen;
 Sprite.transform.localScale.x = 0.25;
@@ -37,7 +39,8 @@ CancelInvoke("LightAni");
 Sprite.transform.localScale.x = 0.08707029;
 Sprite.transform.localScale.y = 0.08707029;
 TV.runtimeAnimatorController = Post;
-
+TVAudio.clip = TVAudioStatic;
+TVAudio.GetComponent.<AudioSource>().Play();
 
 }
 function Flicker () {

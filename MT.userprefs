@@ -1,12 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scene Scripts/Hallway.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Cursor.js">
     <Files>
-      <File FileName="Assets/Scene Scripts/Hallway.js" Line="11" Column="27" />
-      <File FileName="Assets/Interactive Scripts/Fan Control.js" Line="1" Column="1" />
-      <File FileName="Assets/Interactive Scripts/Light Switch.js" Line="1" Column="1" />
-      <File FileName="Assets/Placement Scripts/Invisible.js" Line="1" Column="1" />
-      <File FileName="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Utility/DragRigidbody.cs" Line="42" Column="14" />
+      <File FileName="Assets/Cursor.js" Line="6" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
