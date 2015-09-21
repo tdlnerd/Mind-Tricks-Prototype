@@ -4,6 +4,7 @@ var FPS : GameObject;
 var distancerequired = 1.5;
 
 function OnMouseDown () {
+	Debug.Log("Click!");
 	if (dist < distancerequired) {
 	gameObject.transform.parent = Control.transform;
 	GetComponent.<Rigidbody>().isKinematic = true; 
