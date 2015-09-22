@@ -1,9 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Cursor.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Door2.js">
     <Files>
-      <File FileName="Assets/Standard Assets/Utility/DragRigidbody.cs" Line="42" Column="14" />
-      <File FileName="Assets/Cursor.js" Line="6" Column="2" />
+      <File FileName="Assets/Door2.js" Line="22" Column="1" />
+      <File FileName="Assets/Placement Scripts/InvisibleDeactivation.js" Line="1" Column="1" />
+      <File FileName="Assets/GetRidOfKey.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
