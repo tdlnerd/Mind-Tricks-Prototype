@@ -1,6 +1,7 @@
 ﻿var Mainlight1 : Light;
 var MainLight2 : Light;
 var lightStep = 0.5;
+var Disco : AudioSource;
 
 function OnTriggerEnter () {
 yield WaitForSeconds (1);
@@ -13,6 +14,7 @@ yield WaitForSeconds (1);
 InvokeRepeating("LightAni", 0, 0.05);
 yield WaitForSeconds (1);
 CancelInvoke("LightAni");
+Disco.Play();
 Destroy(gameObject);
 }
 function Flicker () {

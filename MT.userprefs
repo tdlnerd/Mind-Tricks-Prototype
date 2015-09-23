@@ -1,10 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Door2.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scene Scripts/Hallway.js">
     <Files>
-      <File FileName="Assets/Door2.js" Line="22" Column="1" />
+      <File FileName="Assets/DiscoDoorKey.js" Line="1" Column="1" />
+      <File FileName="Assets/Door2.js" Line="1" Column="1" />
       <File FileName="Assets/Placement Scripts/InvisibleDeactivation.js" Line="1" Column="1" />
       <File FileName="Assets/GetRidOfKey.js" Line="1" Column="1" />
+      <File FileName="Assets/Scene Scripts/Hallway.js" Line="17" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
