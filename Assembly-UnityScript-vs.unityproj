@@ -49,6 +49,7 @@
      <Compile Include="Assets\CursorLock.js" />
      <Compile Include="Assets\DiscoDoorKey.js" />
      <Compile Include="Assets\Door2.js" />
+     <Compile Include="Assets\GUIKey.js" />
      <Compile Include="Assets\Generator Scripts\Hallcheck.js" />
      <Compile Include="Assets\Generator Scripts\RoomGenerator.js" />
      <Compile Include="Assets\GetRidOfKey.js" />

@@ -1,7 +1,7 @@
-﻿function Start ()
-   {
-   Screen.lockCursor = true;
-   }
+﻿function Start() {
+UnityEngine.Cursor.visible = false;
+}
+
 function Update () {
-UnityEngine.Cursor.visible = true;
+ Screen.lockCursor = true;
 }
