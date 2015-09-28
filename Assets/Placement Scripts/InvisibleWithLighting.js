@@ -12,7 +12,7 @@ function Update () {
 		GetComponent.<Light>().enabled = false;
 		gameObject.layer = 2;
 	}
-	if (check.MatChange == false && doublecheck.GetComponent.<Renderer>().isVisible == false) {
+	if (doublecheck.GetComponent.<Renderer>().isVisible == false) {
 			gameObject.layer = 0;
 			GetComponent.<Light>().enabled = true;
 	}

@@ -32,6 +32,7 @@ GameObject:
   - 65: {fileID: 6511870}
   - 54: {fileID: 5468368}
   - 114: {fileID: 11473242}
+  - 114: {fileID: 11412428}
   m_Layer: 0
   m_Name: Old Key
   m_TagString: Key
@@ -58,7 +59,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 161018}
   m_LocalRotation: {x: 0, y: .107962586, z: 0, w: .99415499}
-  m_LocalPosition: {x: .77960068, y: 3.01099992, z: .81400001}
+  m_LocalPosition: {x: .77960068, y: 3.03600001, z: .81400001}
   m_LocalScale: {x: .0299999993, y: .0299999993, z: .0299999993}
   m_Children:
   - {fileID: 409880}
@@ -163,8 +164,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4, y: .400000006, z: 4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 4, y: .461294115, z: 4}
+  m_Center: {x: 0, y: .0306526851, z: 0}
 --- !u!65 &6548004
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -177,6 +178,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.37903786, y: 2.00000048, z: 3.02301931}
   m_Center: {x: -1.60022414, y: 0, z: 3.81469727e-06}
+--- !u!114 &11412428
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12d74c1784cd64dee826231a8ad03610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11473242
 MonoBehaviour:
   m_ObjectHideFlags: 1
