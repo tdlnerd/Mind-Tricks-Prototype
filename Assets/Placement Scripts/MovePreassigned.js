@@ -14,14 +14,6 @@ function Move() {
 	transform.rotation = Quaternion.Euler(Rot[choice]);
 	Moving = true;
 }
-
-function OnCollisionEnter(collision: Collision) {
-	if (collision.gameObject.tag == "Player") {
-		return;
-		}
-	Move();
-}
-
 function Update () {
 	Debug.Log(GetComponent.<Renderer>().isVisible);
 	if (Moving == true) {

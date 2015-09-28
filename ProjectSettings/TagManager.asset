@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Key
   - Door
+  - Furn
+  - Floor
   layers:
   - Default
   - TransparentFX

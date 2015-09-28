@@ -5,16 +5,20 @@ var angleOpen: int;
 var angleClose: int; 
 var speedOpen: int =1000;
 var RequireKey = false;
+var DoorOpen : AudioClip;
 
  
 function OnTriggerStay (other: Collider) {
 Debug.Log(other.gameObject.tag);
  if(door.transform.localEulerAngles.y < angleOpen && RequireKey == false) {
-  door.transform.Rotate(Vector3.up*Time.deltaTime*speedOpen); } 
+  door.transform.Rotate(Vector3.up*Time.deltaTime*speedOpen);
+  GetComponent.<AudioSource>().PlayOneShot(DoorOpen); 
+  } 
  
  if(door.transform.localEulerAngles.y < angleOpen && RequireKey == true && other.gameObject.tag == "Key") {
  RequireKey = false;
  door.transform.Rotate(Vector3.up*Time.deltaTime*speedOpen);
+ GetComponent.<AudioSource>().PlayOneShot(DoorOpen); 
  }
 }
   

@@ -12,7 +12,7 @@ Mainlight1.intensity= 0.00;
 MainLight2.intensity= 0.00;
 yield WaitForSeconds (1);
 InvokeRepeating("LightAni", 0, 0.05);
-yield WaitForSeconds (1);
+yield WaitForSeconds (0.5);
 CancelInvoke("LightAni");
 Disco.Play();
 Destroy(gameObject);

@@ -2,11 +2,6 @@
 var normalmaterial : Material;
 var check : MovePreassigned;
 var doublecheck : Renderer;
-function Start () {
-	if (normalmaterial == null) {
-		normalmaterial = GetComponent.<Renderer>().material;
-	}
-}
 
 function Update () {
 	if (check.moving == true) {
