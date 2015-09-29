@@ -2,6 +2,7 @@
 var Rot : Vector3[];
 var Moving = false;
 var MatChange = false;
+var SFX : AudioClip [];
 function OnBecameInvisible () {
 Move();
 }
@@ -9,6 +10,8 @@ Move();
 function Move() {
 	Moving = false;
 	MatChange = true;
+	SFXchoice = Random.Range(0,SFX.length);
+	GetComponent.<AudioSource>().PlayOneShot(SFX[SFXchoice]);
 	choice = Random.Range(0,Pos.Length);
 	transform.position = Pos[choice];
 	transform.rotation = Quaternion.Euler(Rot[choice]);
