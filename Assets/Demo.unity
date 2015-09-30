@@ -1977,7 +1977,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400006, guid: 0926e231b304242b5999f09cc821c4f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.2609997
+      value: 6.61600018
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 0926e231b304242b5999f09cc821c4f9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1985,7 +1985,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 0926e231b304242b5999f09cc821c4f9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.75199986
+      value: 4.64900017
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 0926e231b304242b5999f09cc821c4f9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -7018,6 +7018,47 @@ MonoBehaviour:
   normalmaterial: {fileID: 0}
   check: {fileID: 991991793}
   doublecheck: {fileID: 991991791}
+--- !u!1 &1011984676 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100006, guid: 0926e231b304242b5999f09cc821c4f9, type: 3}
+  m_PrefabInternal: {fileID: 331276851}
+--- !u!114 &1011984678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1011984676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6aa81d439574c789b69af19339489a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invisible: {fileID: 0}
+  normalmaterial: {fileID: 0}
+  check: {fileID: 0}
+  doublecheck: {fileID: 0}
+--- !u!114 &1011984679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1011984676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeac173382384356b0843fb673362cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pos:
+  - {x: 14.2609997, y: 1.08500004, z: 4.75199986}
+  - {x: 8.17700005, y: 1.08500004, z: 7.78100014}
+  - {x: 6.61600018, y: 1.08500004, z: 4.64900017}
+  Rot:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  Moving: 0
+  MatChange: 0
+  SFX: []
 --- !u!1 &1042937018
 GameObject:
   m_ObjectHideFlags: 0
