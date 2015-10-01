@@ -6,9 +6,9 @@
 -nowarn:BCW0016
 -nowarn:BCW0003
 -method:Main
--out:Temp/Assembly-UnityScript.dll
+-out:Temp/Assembly-UnityScript-firstpass.dll
 -x-type-inference-rule-attribute:UnityEngineInternal.TypeInferenceRuleAttribute
--define:UNITY_5_1_2
+-define:UNITY_5_1_3
 -define:UNITY_5_1
 -define:UNITY_5
 -define:ENABLE_NEW_BUGREPORTER
@@ -70,32 +70,10 @@
 -define:UNITY_EDITOR_OSX
 -define:CROSS_PLATFORM_INPUT
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
--r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
--r:'Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll'
--r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
--r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
 -r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
 -i:UnityEditor
-'Assets/CursorLock.js'
-'Assets/DiscoDoorKey.js'
-'Assets/Door2.js'
-'Assets/GUIKey.js'
-'Assets/Generator Scripts/Hallcheck.js'
-'Assets/Generator Scripts/RoomGenerator.js'
-'Assets/GetRidOfKey.js'
-'Assets/Interactive Scripts/Fan Control.js'
-'Assets/Interactive Scripts/Light Switch.js'
-'Assets/Placement Scripts/ChangePicture.js'
-'Assets/Placement Scripts/Hold Object.js'
-'Assets/Placement Scripts/Invisible.js'
-'Assets/Placement Scripts/InvisibleDeactivation.js'
-'Assets/Placement Scripts/InvisibleWithLighting.js'
-'Assets/Placement Scripts/LightDeactivate.js'
-'Assets/Placement Scripts/MovePreassigned.js'
-'Assets/Placement Scripts/MovePreassignedSimple.js'
-'Assets/Placement Scripts/MovePreassignedWithLighting.js'
-'Assets/Scene Scripts/Hallway.js'
-'Assets/Scene Scripts/Intro.js'
-'Assets/Timer.js'
+'Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/IgnoreL2.js'

@@ -106,7 +106,7 @@ Material:
       data:
         first:
           name: _BumpScale
-        second: .119999997
+        second: .649999976
       data:
         first:
           name: _OcclusionStrength
