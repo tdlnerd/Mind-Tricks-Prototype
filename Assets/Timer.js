@@ -1,5 +1,6 @@
 ﻿var timer: float = 70;
 var isFinishedLevel : boolean = false;
+var camanim : Animator;
 public var displayText : UnityEngine.UI.Text;
 
 private var oldTimer : float;
@@ -28,7 +29,7 @@ function Update()
 		
 		displayText.text = minsDisplay + " : " + secsDisplay;
 	} 
-	else {
-	 	timer = oldTimer;
-	}
+	if (timer < 1) {
+	 camanim.SetTrigger("End");
+	 }
 }
