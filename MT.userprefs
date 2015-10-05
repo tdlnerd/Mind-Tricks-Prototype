@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Placement Scripts/MovePreassigned.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Door2.js">
     <Files>
-      <File FileName="Assets/Placement Scripts/MovePreassigned.js" Line="13" Column="22" />
+      <File FileName="Assets/Door2.js" Line="24" Column="7" />
+      <File FileName="Assets/CandleLight.js" Line="15" Column="11" />
+      <File FileName="Assets/Timer.js" Line="1" Column="1" />
+      <File FileName="Assets/Placement Scripts/MovePreassigned.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

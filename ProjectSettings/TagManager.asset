@@ -8,6 +8,7 @@ TagManager:
   - Door
   - Furn
   - Floor
+  - UnlockedDoor
   layers:
   - Default
   - TransparentFX

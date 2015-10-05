@@ -31,5 +31,11 @@ function Update()
 	} 
 	if (timer < 1) {
 	 camanim.SetTrigger("End");
+	 Load();
 	 }
+}
+
+function Load () {
+yield WaitForSeconds (5);
+Application.LoadLevel("GameOver");
 }
