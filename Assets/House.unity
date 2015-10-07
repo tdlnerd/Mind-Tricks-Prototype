@@ -1987,6 +1987,14 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_WalkSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_RunSpeed
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
@@ -2036,7 +2044,7 @@ MonoBehaviour:
   campfireMethod: 0
   campfireIntesityStyle: 1
   campfireRangeStyle: 1
-  CampfireIntensityBaseValue: .5
+  CampfireIntensityBaseValue: 1
   CampfireIntensityFlickerValue: .100000001
   CampfireRangeBaseValue: 10
   CampfireRangeFlickerValue: 2
@@ -5767,21 +5775,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb9a24d6a2cec42c980860f4cc3d349b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Mainlight1: {fileID: 586903925}
-  Mainlight2: {fileID: 1616632236}
-  Mainlight3: {fileID: 322815746}
-  lightStep: 1
-  TV: {fileID: 926077387}
-  Intro: {fileID: 9100000, guid: 05bd29d8c8d264e21836d07c8e5ab043, type: 2}
-  Post: {fileID: 9100000, guid: d65f7ad1865a14a17898db4851664fac, type: 2}
-  Sprite: {fileID: 926077385}
-  PreScreen: {fileID: 2800000, guid: 48eadffc314964350aa47c9fa58fc422, type: 3}
-  PostScreen: {fileID: 2800000, guid: a0e49324dbe1f45b79444ce28304fad7, type: 3}
-  Stereo: {fileID: 1357092708}
-  FlickerSound: {fileID: 8300000, guid: 3fe231ab9750d40c4897bda8fd4fd0f0, type: 3}
-  Poweroff: {fileID: 8300000, guid: c504f6732ddfb4ee29e94baf95dadaa4, type: 3}
-  TVAudio: {fileID: 633363677}
-  TVAudioStatic: {fileID: 8300000, guid: 5559333541a3f489a8c4066a50796832, type: 3}
 --- !u!82 &646922011
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7285,7 +7278,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &748268355
 Light:
   m_ObjectHideFlags: 0
@@ -7296,7 +7289,7 @@ Light:
   serializedVersion: 6
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.18000007
+  m_Intensity: .200000003
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -8123,8 +8116,8 @@ MonoBehaviour:
   campfireMethod: 0
   campfireIntesityStyle: 1
   campfireRangeStyle: 1
-  CampfireIntensityBaseValue: .5
-  CampfireIntensityFlickerValue: .100000001
+  CampfireIntensityBaseValue: 1
+  CampfireIntensityFlickerValue: .5
   CampfireRangeBaseValue: 10
   CampfireRangeFlickerValue: 2
   CampfireSineCycleIntensitySpeed: 5
@@ -11836,7 +11829,7 @@ MonoBehaviour:
   campfireMethod: 0
   campfireIntesityStyle: 1
   campfireRangeStyle: 1
-  CampfireIntensityBaseValue: .5
+  CampfireIntensityBaseValue: 1
   CampfireIntensityFlickerValue: .100000001
   CampfireRangeBaseValue: 10
   CampfireRangeFlickerValue: 2
@@ -14115,7 +14108,7 @@ Transform:
   m_GameObject: {fileID: 1443550179}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -30, y: 8, z: 1.80999851}
-  m_LocalScale: {x: 1, y: 15, z: 40}
+  m_LocalScale: {x: 1, y: 15, z: 41.9976997}
   m_Children: []
   m_Father: {fileID: 29902889}
   m_RootOrder: 13
@@ -17143,11 +17136,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 455284, guid: 95ce41d79bedf4b6a8f5f842d7ba6adf, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 8.96809959
+      value: 8.95499992
       objectReference: {fileID: 0}
     - target: {fileID: 455284, guid: 95ce41d79bedf4b6a8f5f842d7ba6adf, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.19719994
+      value: 1.23469996
       objectReference: {fileID: 0}
     - target: {fileID: 455284, guid: 95ce41d79bedf4b6a8f5f842d7ba6adf, type: 2}
       propertyPath: m_LocalPosition.z
@@ -17179,15 +17172,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 455284, guid: 95ce41d79bedf4b6a8f5f842d7ba6adf, type: 2}
       propertyPath: m_LocalScale.x
-      value: .0199999996
+      value: .0299999993
       objectReference: {fileID: 0}
     - target: {fileID: 455284, guid: 95ce41d79bedf4b6a8f5f842d7ba6adf, type: 2}
       propertyPath: m_LocalScale.y
-      value: .0199999996
+      value: .0299999993
       objectReference: {fileID: 0}
     - target: {fileID: 455284, guid: 95ce41d79bedf4b6a8f5f842d7ba6adf, type: 2}
       propertyPath: m_LocalScale.z
-      value: .0199999996
+      value: .0299999993
       objectReference: {fileID: 0}
     - target: {fileID: 11473242, guid: 95ce41d79bedf4b6a8f5f842d7ba6adf, type: 2}
       propertyPath: distancerequired
