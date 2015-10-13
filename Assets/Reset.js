@@ -1,9 +1,9 @@
-﻿
+﻿var L2L : String;
 
 
 
 function Update () {
 	if (Input.GetKeyDown("r")) {
-	Application.LoadLevel("House");
+	Application.LoadLevel(L2L);
 	}
 }

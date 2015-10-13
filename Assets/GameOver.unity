@@ -146,7 +146,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: CLICK "R" TO RESET
+  m_Text: PRESS "R" TO RESET
 --- !u!222 &245943613
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -535,9 +535,11 @@ MonoBehaviour:
     m_Alignment: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: END OF DEMO
+  m_Text: 'END OF DEMO
+
+    (ESCAPE FAILED)'
 --- !u!222 &1399612322
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -740,7 +742,6 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
-  m_TargetEye: 3
   m_HDR: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -786,3 +787,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab5b92bb6d3945f099839b925454efe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  L2L: Title
